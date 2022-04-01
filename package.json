@@ -1,0 +1,23 @@
+{
+  "name": "habits-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itgirlschool/frontend15_js_project1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itgirlschool/frontend15_js_project1/issues"
+  },
+  "homepage": "https://github.com/itgirlschool/frontend15_js_project1#readme",
+  "devDependencies": {
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
