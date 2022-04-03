@@ -16,7 +16,7 @@
     }
 
     /* Заголовок */
-    .login-page__title {
+    .login-page__form-title {
         padding-bottom: 2vh;
 
         font-size: 1.9em;
@@ -27,26 +27,26 @@
     }
 
     /* Логин и пароль */
-    .login-email__input,
-    .login-password__input {   
+    .login-page__form-input-email,
+    .login-page__form-input-passwoord {   
         padding: 3%;
         height: 7vh;
 
         border-radius: 10px;
     }
 
-    .login-email__input{
+    .login-page__form-input-email{
         margin-bottom: 5%;
     }
     /* Лабел для пароля */
-    .login-password__label{
+    .input-password__label{
         margin-top: 1vh;
 
         color: grey;
     }
 
     /* Кнопка */
-    .login-page__button {
+    .login-page__form-button {
         align-self: center;
         margin-top: 7vh;
         padding: 20px;
@@ -59,17 +59,17 @@
     }
 
     /* Общие шрифты */
-    .login-page__title,
-    .login-email__input,
-    .login-password__input,
-    .login-password__label {
+    .login-page__form-title,
+    .login-page__form-input-email,
+    .login-page__form-input-passwoord,
+    .input-password__label {
         font-family: var(--font);
     }
 
     /* Общие стрили Логина, пароля и кнопки */
-    .login-email__input,
-    .login-password__input,
-    .login-page__button {
+    .login-page__form-input-email,
+    .login-page__form-input-passwoord,
+    .login-page__form-button {
         border: none;
 
         font-size: 1.2em;
