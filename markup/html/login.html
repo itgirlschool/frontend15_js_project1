@@ -9,19 +9,18 @@
   <title>Document</title>
 </head>
 
-<body class="login__page" id="login__page">
-  <form class="login__page__form">
-    <p class="login__page__title">Sign up to save your progress</p>
+<body class="login-page" id="login-page">
+  <form class="login-page__form">
+    <p class="login-page__title">Sign up to save your progress</p>
 
-    <input type="email" class="login-email" id="login-email" name="email" placeholder="Email Address"
+    <input type="email" class="login-email__input" id="login-email__input" name="email" placeholder="Email Address"
       pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$" required>
-    <label for="email"></label>
 
-    <input type="password" class="login-password" id="login-password" name="password" placeholder="Password"
-      minlength="8" required>
+    <input type="password" class="login-password__input" id="login-password__input" name="password"
+      placeholder="Password" minlength="8" required>
     <label for="password" class="login-password__label">8+ characters, 1 upercase and 1 number</label>
 
-    <button type="submit" class="login-button">Continue</button>
+    <button type="submit" class="login-page__button">Continue</button>
   </form>
 </body>
 
