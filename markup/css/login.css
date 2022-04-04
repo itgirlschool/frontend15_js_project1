@@ -1,0 +1,81 @@
+@media (max-width: 767px){
+    /* Стили страницы */
+    .login-page {
+        margin: 0 auto;
+        padding: 10vh 0 ;
+
+        background-color: var(--main-background);
+    }
+
+    /* Форма */
+        .login-page__form {
+        display: flex;
+        flex-direction: column;
+        max-width: 85vw;
+        margin: 0 auto;
+    }
+
+    /* Заголовок */
+    .login-page__form-title {
+        padding-bottom: 2vh;
+
+        font-size: 1.9em;
+        
+        color: var(--main-text);
+
+        text-align: center;
+    }
+
+    /* Логин и пароль */
+    .login-page__form-input-email,
+    .login-page__form-input-passwoord {   
+        padding: 3%;
+        height: 7vh;
+
+        border-radius: 10px;
+    }
+
+    .login-page__form-input-email{
+        margin-bottom: 5%;
+    }
+    /* Лабел для пароля */
+    .input-password__label{
+        margin-top: 1vh;
+
+        color: grey;
+    }
+
+    /* Кнопка */
+    .login-page__form-button {
+        align-self: center;
+        margin-top: 7vh;
+        padding: 20px;
+        width: 60vw;
+
+        border-radius: 30px;
+
+        background: var( --main-accent-gradient);
+        color: white;
+    }
+
+    /* Общие шрифты */
+    .login-page__form-title,
+    .login-page__form-input-email,
+    .login-page__form-input-passwoord,
+    .input-password__label {
+        font-family: var(--font);
+    }
+
+    /* Общие стрили Логина, пароля и кнопки */
+    .login-page__form-input-email,
+    .login-page__form-input-passwoord,
+    .login-page__form-button {
+        border: none;
+
+        font-size: 1.2em;
+    }
+}
+
+
+
+
