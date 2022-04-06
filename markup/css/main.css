@@ -3,7 +3,7 @@
 @import './font.css';
 @import './helpers.css';
 @import './login.css';
-@import '.edit-habit.css';
+@import './edit-habit.css';
 
 * {
     box-sizing: border-box;
