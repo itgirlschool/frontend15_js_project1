@@ -54,6 +54,7 @@
     border-radius: 50px;
     background-color: white;
     border: 1px solid white;
+    list-style-type: none;
     height: 30px;
     padding-top: 3px;
     text-align: center;
@@ -72,6 +73,7 @@
   }*/
 
   .calendar-day {
+    list-style-type: none;
     height: 30px;
     text-align: center;
     width: 30px;
@@ -138,7 +140,7 @@
   .main__routine__weather {
     margin: 20px 0;
     text-align: center;
-      }
+  }
 
   .main__routine__weather-time {
     margin: 0 5px;
@@ -207,7 +209,7 @@
 
   .check__input:checked+label::before {
     border-color: #6e37e2;
-   
+
     background-image: url("../images/radio.png");
   }
 
