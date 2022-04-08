@@ -1,0 +1,21 @@
+/* variables */
+
+:root {
+ --width-mobile: 'max-width: 767px';
+ --width-tablet: 'min-width: 768px';
+ --width-tablet-only: 'min-width: 768px and max-width: 1189px';
+ --width-desktop: 'min-width: 1190px';
+
+ --main-background: #fdf2f2;
+ --main-text: #1b1b1b;
+ --main-accent-gradient: linear-gradient(to bottom, #8556e8, #ad6ee0);
+ --main-accent-color: #9674ed;
+
+ --font: -apple-system,
+ BlinkMacSystemFont,
+ 'Segoe UI',
+ Roboto,
+ Helvetica,
+ Arial,
+ sans-serif;
+}

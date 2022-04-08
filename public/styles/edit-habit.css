@@ -1,0 +1,97 @@
+@media (max-width: 767px){
+/* Стили страницы */
+.edit-habit-page {
+    margin: 0 auto;
+    padding: 10vh 0 ;
+    border-radius: 30px;
+    background-color: var(--main-background);
+}
+
+.edit-habit-page__progress-value {
+    width: 90%;
+    height: 3px;
+    background: white;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.value-box {
+    height: 3px;
+    background: var(--main-accent-color);
+    width: 70%;
+}
+
+/* Заголовок */
+.edit-habit-page__title {
+    padding-bottom: 2vh;
+
+    font-size: 1.9em;
+    
+    color: var(--main-text);
+
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* Контейнер с карточками */
+.edit-habit-page__section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Строка с карточками */
+.edit-habit-page__section-row {
+    display: flex;
+}
+
+/* Карточка */
+.edit-habit-page__figure {
+    width: 44vw;
+    background-color: white;
+    border-radius: 10px;
+    margin: 3%;
+}
+
+/* Картинка */
+.edit-habit-page__figure-img{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+/* Текст */
+.edit-habit-page__figure-text {
+    text-align: center;
+    margin-bottom: 20%;
+    color: var( --main-text);
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+/* Кнопка */
+.edit-habit-page__button {
+    position: sticky;
+    bottom: 10px;
+    align-self: center;
+    margin-top: 7vh;
+    padding: 20px;
+    width: 90%;
+    border-color: white;
+    border-radius: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background: var( --main-accent-gradient);
+    color: white;
+}
+
+/* Общие шрифты */
+.edit-habit-page__title,
+.edit-habit-page__figure-text {
+    font-family: var(--font);
+}
+}
