@@ -27,6 +27,6 @@ export class LoginView {
 
 
     setLoginBtnClickHandler(callback) {
-        this.getElement().querySelector(`.login-page__form-button`).addEventListener(`click`, callback);
+        document.querySelector(`.login-page__form-button`).addEventListener(`click`, callback);
     }
 }

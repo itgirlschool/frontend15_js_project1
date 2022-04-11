@@ -17,6 +17,5 @@ export class LoginPresenter {
     }
 
     _handleLoginBtnClick() {
-        // 
     }
 }

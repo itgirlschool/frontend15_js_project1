@@ -11,47 +11,42 @@
 
 <body>
 
-  <body class="page">
+  <body>
 
-    <main class="main">
+    <main>
 
-      <article class="main__article">
+      <section class="dashboard">
+        <h2 class="dashboard__title">
+          Morning, Yugal
+        </h2>
 
-        <section class="main__calendar">
+        <section class="dashboard__calendar">
+          <ul class="dashboard__calendar-days">
+            <li class="calendar-day">Mo</li>
+            <li class="calendar-day">Tu</li>
+            <li class="calendar-day">We</li>
+            <li class="calendar-day">Th</li>
+            <li class="calendar-day">Fr</li>
+            <li class="calendar-day">Sa</li>
+            <li class="calendar-day">Su</li>
+          </ul>
 
-          <h2 class="main__calendar-greetings">
-            Morning, Yugal
-          </h2>
+          <div class="dashboard__calendar-numbers">
+            <li class="calendar-number">1</li>
+            <li class="calendar-number">2</li>
+            <li class="calendar-number">3</li>
+            <li class="calendar-number">4</li>
+            <li class="calendar-number">5</li>
+            <li class="calendar-number">6</li>
+            <li class="calendar-number">7</li>
+          </div>
 
-          <section class="main__calendar-section">
-
-            <ul class="main__calendar-days">
-              <li class="calendar-day">Mo</li>
-              <li class="calendar-day">Tu</li>
-              <li class="calendar-day">We</li>
-              <li class="calendar-day">Th</li>
-              <li class="calendar-day">Fr</li>
-              <li class="calendar-day">Sa</li>
-              <li class="calendar-day">Su</li>
-            </ul>
-
-            <div class="main__calendar-numbers">
-              <li class="calendar-number">1</li>
-              <li class="calendar-number">2</li>
-              <li class="calendar-number">3</li>
-              <li class="calendar-number">4</li>
-              <li class="calendar-number">5</li>
-              <li class="calendar-number">6</li>
-              <li class="calendar-number">7</li>
-            </div>
-
-          </section>
 
         </section>
 
-        <section class="main__bedtime">
+        <section class="dashboard__bedtime">
 
-          <section class="main__bedtime-text">
+          <section class="dashboard__bedtime-text">
             <h3 class="bedtime-title">
               Bedtime & Wakeup
             </h3>
@@ -62,37 +57,39 @@
 
           </section>
 
-          <section class="main__bedtime-img">
+          <section class="dashboard__bedtime-img">
             <img class="bedtime-img" src="../images/girl.png" alt="girl">
           </section>
 
         </section>
 
-        <div class="main__routine-title">
-          <p class="main__routine-title-p">Your Today's Routine</p>
+        <div class="dashboard__routine-title">
+          <p class="dashboard__routine-title-p">Your Today's Routine</p>
         </div>
 
-        <section class="main__routine">
+        <section class="dashboard__routine">
 
-          <section class="main__routine__weather">
-            <img class="main__routine__weather-img" src="../images/sun.png" alt="sun">
-            <p class="main__routine__weather-time">Morning (2)</p>
-            <div class="main__routine__weather-line"></div>
+          <section class="dashboard__routine__weather">
+            <img class="dashboard__routine__weather-img" src="../images/sun.png" alt="sun">
+            <p class="dashboard__routine__weather-time">Morning (2)</p>
+            <div class="dashboard__routine__weather-line"></div>
 
           </section>
 
-          <section class="main__routine-water">
-            <section class="main__routine__water-text">
+          <section class="dashboard__routine">
+            <section class="dashboard__routine__water">
 
-              <h3 class="main__routine__title">Drink a class of water</h3>
+              <h3 class="dashboard__routine__title">Drink a class of water</h3>
 
               <div class="check__div">
 
                 <input class="check__input input__water-time1" type="radio" id="water_time1" name="water_time"
                   value="5min">
 
-                <label for="water_time1"><img class="main__routine__water-img" src="../images/clock.png" alt="time">5
-                  min</label>
+                <p class="check__div-text">
+                  <img class="dashboard__routine__water-img" src="../images/clock.png" alt="time">
+                  5 min
+                </p>
 
               </div>
 
@@ -101,31 +98,33 @@
                 <input class="check__input input__water-time2" type="radio" id="water_time2" name="water_time"
                   value="3day">
 
-                <label for="water_time2"><img class="main__routine__water-img" src="../images/fire.png" alt="fire">3-day
+                <label for="water_time2"><img class="dashboard__routine__water-img" src="../images/fire.png"
+                    alt="fire">3-day
                   steak</label>
 
               </div>
 
             </section>
 
-            <section class="main__routine__water-image">
+            <section class="dashboard__routine__water-image">
               <img class="water-img" src="../images/water.png" alt="water">
             </section>
 
           </section>
 
-          <section class="main__routine-relax">
+          <section class="dashboard__routine-relax">
 
-            <section class="main__routine__relax-text">
+            <section class="dashboard__routine__relax-text">
 
-              <h3 class="main__routine__title">Meditate to relax</h3>
+              <h3 class="dashboard__routine__title">Meditate to relax</h3>
 
               <div class="check__div">
 
                 <input class="check__input input__relax-time1" type="radio" id="relax_time1" name="relax_time"
                   value="10 min">
 
-                <label for="relax_time1"><img class="main__routine__relax-img" src="../images/clock.png" alt="time">10
+                <label for="relax_time1"><img class="dashboard__routine__relax-img" src="../images/clock.png"
+                    alt="time">10
                   min</label>
 
               </div>
@@ -135,14 +134,15 @@
                 <input class="check__input input__relax-time1" type="radio" id="relax_time2" name="relax_time"
                   value="2day">
 
-                <label for="relax_time2"><img class="main__routine__relax-img" src="../images/fire.png" alt="fire">2-day
+                <label for="relax_time2"><img class="dashboard__routine__relax-img" src="../images/fire.png"
+                    alt="fire">2-day
                   steak</label>
 
               </div>
 
             </section>
 
-            <section class="main__routine__relax-image">
+            <section class="dashboard__routine__relax-image">
               <img class="relax-img" src="../images/flower.png" alt="flower">
             </section>
 
@@ -159,7 +159,7 @@
 
 
 
-      </article>
+      </section>
 
     </main>
 
